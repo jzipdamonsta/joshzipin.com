@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#body-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+#title-wrapper-container {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title-wrapper, #work-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top: 150px;
+  line-height: 1;
+}
+
+#title-wrapper h1, #work-title-wrapper h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 49px;
+}
+
+#title-wrapper p {
+  padding: 5px;
+  margin: 0;
+  font-size: 27px;
+  letter-spacing: 0.9;
+}
+
+#title-wrapper p1 {
+  padding: 50px;
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0.9;
+}
+
+#title-wrapper p2 {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0.9;
+}
+
+#img-wrapper {
+  background-size: cover;
+  background-image: url('/images/MOM_headshot.jpg');
+  height: 100%;
+  width: 50%;
+}
+
+#first-image {
+  display: inline;
+  height: 100%;
+}
+
+#header-container {
+  width:100%;
+  min-height: 20px;
+}
+
+#header-container a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 17px 30px;
+  vertical-align: middle;
+
+}
+
+#header-container a:hover {
+  opacity: 0.5;
+  transform: scale(1.2);
+}
+
+#header-container #zip-logo {
+  font-size: 32px;
+  padding-top: 11px;
+}
+
+#button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 350px;
+}
+
+.button {
+  height: 65px;
+  width: 125px;
+  border: 3px solid black;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.button-text {
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover .button-text{
+  transform: scale(1.2);
+}
+
+#link-wrapper {
+    height:26px;
+    width:340px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#twitter-logo {
+    display: inline-block;
+    height: 26px;
+    width: 32px;
+    background-size: contain;
+    background-image: url("/icons/twitter-logo-gray.png");
+    background-repeat: no-repeat;
+}
+
+#twitter-logo:hover {
+  background-image: url("/icons/twitter-logo.png");
+}
+
+#lnkd-logo {
+  display: inline-block;
+  height: 26px;
+  width: 27px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/icons/lnkd-logo-gray.png");
+}
+
+#lnkd-logo:hover {
+  background-image: url("/icons/lnkd-logo.png");
+}
+
+#medium-logo {
+  display: in-inline-block;
+  height: 26px;
+  width: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/icons/medium-logo-gray.png");
+}
+
+#medium-logo:hover{
+  background-image: url("/icons/medium-logo.png");
+}
+
+#instagram-logo {
+  display: in-inline-block;
+  height: 26px;
+  width: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/icons/ig-logo-gray.png");
+}
+
+#instagram-logo:hover {
+  background-image: url("/icons/ig-logo.png");
+}
+
+#email-logo{
+  display: in-inline-block;
+  height: 26px;
+  width: 42px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/icons/email-logo-gray.png");
+}
+
+#email-logo:hover {
+  background-image: url("/icons/email-logo.png");
+}
+
+#image-work-wrapper{
+  background-size: cover;
+  background-image: url('/images/MOM_smile.jpg');
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+}
+
+.page-text-wrapper .page-text{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+.page-text-wrapper{
+padding: 5px;
+max-width: 500px;
+margin: 0 auto;
+}
+
+#image-play-wrapper{
+  background-size: cover;
+  background-image: url('/images/MOM_oface.jpg');
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+}
