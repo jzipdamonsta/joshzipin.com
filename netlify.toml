@@ -1,2 +1,3 @@
 [build]
   command = "ruby app.rb"
+  command = "echo 'hey!'"
