@@ -1,2 +1,2 @@
 [build]
-  command = "echo 'hey!'"
+  command = "ruby app.rb"
