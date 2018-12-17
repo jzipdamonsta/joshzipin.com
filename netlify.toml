@@ -1,2 +1,5 @@
 [build]
+  command = "bundle"
+
+[context.production]
   command = "ruby app.rb"
