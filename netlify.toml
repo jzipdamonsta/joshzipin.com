@@ -1,5 +1,2 @@
-[build]
-  command = "bundle"
-
 [context.production]
-  command = "ruby app.rb"
+  command = "bundle && ruby app.rb"
