@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Josh Zipin&#39;s Corner of The Internet</title>
+    <link>http://joshzipin.com/</link>
+    <description>Recent content on Josh Zipin&#39;s Corner of The Internet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://joshzipin.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://joshzipin.com/play/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://joshzipin.com/play/</guid>
+      <description>JZ work play   Adventurer  My parents tell me that at 9 months I skipped crawling and went straight to running. My mom has been beating herself up about it for years but I think I turned out fine. I played Division I soccer at Davidson College and represented the United States in the Maccabiah Games in Israel. I was friends with Stephen Curry in college.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://joshzipin.com/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://joshzipin.com/work/</guid>
+      <description>JZ work play   Hustler  I made my first $100 in middle school selling baseball cards and mix CDs. In college I ran a $50k textbook business on campus. I sold sneakers. My first job was raising money for athletics at my alma mater, Davidson College. For fun I made a business plan for a Shark Tank entrepreneur making 100% recyclable sneakers. I moved to San Francisco.</description>
+    </item>
+    
+  </channel>
+</rss>
