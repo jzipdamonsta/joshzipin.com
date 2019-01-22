@@ -43,9 +43,29 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 100px;
-  padding-top: 150px;
+  padding-top: 50px;
   line-height: 1;
 }
+
+#title-wrapper {
+  padding-top: 150px;
+}
+
+@media only screen and (max-width: 800px)  {
+  #title-wrapper, #work-title-wrapper {
+    padding-top: 0px;
+  }
+  #title-wrapper {
+    padding-top: 150px;
+  }
+}
+
+
+.work-title, .play-title {
+  font-size: 48px;
+  margin-top: 75px;
+}
+
 
 #title-wrapper h1, #work-title-wrapper h1 {
   padding: 0;
@@ -243,14 +263,15 @@ body {
 
 .page-text-wrapper .page-text{
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   padding-left: 15px;
   padding-right: 15px;
+  line-height: 1.1;
 }
 
 .page-text-wrapper{
 padding: 5px;
-max-width: 500px;
+max-width: 600px;
 margin: 0 auto;
 }
 
